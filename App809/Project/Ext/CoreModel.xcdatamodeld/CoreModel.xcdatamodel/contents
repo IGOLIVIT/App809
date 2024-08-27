@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AdModel" representedClassName="AdModel" syncable="YES" codeGenerationType="class">
+        <attribute name="adDate" optional="YES" attributeType="String"/>
+        <attribute name="adDescr" optional="YES" attributeType="String"/>
+        <attribute name="adLocation" optional="YES" attributeType="String"/>
+        <attribute name="adName" optional="YES" attributeType="String"/>
+        <attribute name="adPhoto1" optional="YES" attributeType="String"/>
+        <attribute name="adPhoto2" optional="YES" attributeType="String"/>
+        <attribute name="adPhoto3" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HisModel" representedClassName="HisModel" syncable="YES" codeGenerationType="class">
+        <attribute name="hisAdv" optional="YES" attributeType="String"/>
+        <attribute name="hisDescr" optional="YES" attributeType="String"/>
+        <attribute name="hisName" optional="YES" attributeType="String"/>
+        <attribute name="hisPhoto" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NotesModel" representedClassName="NotesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="notDate" optional="YES" attributeType="String"/>
+        <attribute name="notDescr" optional="YES" attributeType="String"/>
+        <attribute name="notEmo" optional="YES" attributeType="String"/>
+        <attribute name="notName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlacesModel" representedClassName="PlacesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="plDescr" optional="YES" attributeType="String"/>
+        <attribute name="plLoc" optional="YES" attributeType="String"/>
+        <attribute name="plName" optional="YES" attributeType="String"/>
+        <attribute name="plPhoto1" optional="YES" attributeType="String"/>
+        <attribute name="plPhoto2" optional="YES" attributeType="String"/>
+        <attribute name="plPhoto3" optional="YES" attributeType="String"/>
+        <attribute name="plType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
