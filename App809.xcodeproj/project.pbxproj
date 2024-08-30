@@ -32,6 +32,12 @@
 		78640F222C6E1BAE00E2F176 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78640F212C6E1BAE00E2F176 /* NotesViewModel.swift */; };
 		78640F252C6E1F4200E2F176 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78640F242C6E1F4200E2F176 /* AddNote.swift */; };
 		78640F272C6E302600E2F176 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78640F262C6E302600E2F176 /* TabBar.swift */; };
+		78A13E062C8219CA00E7D8BC /* YandexMobileMetrica in Frameworks */ = {isa = PBXBuildFile; productRef = 78A13E052C8219CA00E7D8BC /* YandexMobileMetrica */; };
+		78A13E082C8219CA00E7D8BC /* YandexMobileMetricaCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 78A13E072C8219CA00E7D8BC /* YandexMobileMetricaCrashes */; };
+		78A13E0B2C8219D000E7D8BC /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 78A13E0A2C8219D000E7D8BC /* ApphudSDK */; };
+		78A13E0D2C8219ED00E7D8BC /* Saw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13E0C2C8219ED00E7D8BC /* Saw.swift */; };
+		78A13E0F2C8219F300E7D8BC /* Des.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13E0E2C8219F300E7D8BC /* Des.swift */; };
+		78A13E112C8219FA00E7D8BC /* Wot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13E102C8219F900E7D8BC /* Wot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +68,9 @@
 		78640F212C6E1BAE00E2F176 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 		78640F242C6E1F4200E2F176 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
 		78640F262C6E302600E2F176 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		78A13E0C2C8219ED00E7D8BC /* Saw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saw.swift; sourceTree = "<group>"; };
+		78A13E0E2C8219F300E7D8BC /* Des.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Des.swift; sourceTree = "<group>"; };
+		78A13E102C8219F900E7D8BC /* Wot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A13E0B2C8219D000E7D8BC /* ApphudSDK in Frameworks */,
+				78A13E062C8219CA00E7D8BC /* YandexMobileMetrica in Frameworks */,
+				78A13E082C8219CA00E7D8BC /* YandexMobileMetricaCrashes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +160,9 @@
 				78640F042C6DF1B100E2F176 /* CoreDataStack.swift */,
 				78640F062C6DF1B900E2F176 /* Array.swift */,
 				78640F082C6DF1C100E2F176 /* CoreModel.xcdatamodeld */,
+				78A13E0C2C8219ED00E7D8BC /* Saw.swift */,
+				78A13E0E2C8219F300E7D8BC /* Des.swift */,
+				78A13E102C8219F900E7D8BC /* Wot.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -276,6 +291,11 @@
 			dependencies = (
 			);
 			name = App809;
+			packageProductDependencies = (
+				78A13E052C8219CA00E7D8BC /* YandexMobileMetrica */,
+				78A13E072C8219CA00E7D8BC /* YandexMobileMetricaCrashes */,
+				78A13E0A2C8219D000E7D8BC /* ApphudSDK */,
+			);
 			productName = App809;
 			productReference = 78640ED92C6DEF7800E2F176 /* App809.app */;
 			productType = "com.apple.product-type.application";
@@ -304,6 +324,10 @@
 				Base,
 			);
 			mainGroup = 78640ED02C6DEF7800E2F176;
+			packageReferences = (
+				78A13E042C8219CA00E7D8BC /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */,
+				78A13E092C8219D000E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+			);
 			productRefGroup = 78640EDA2C6DEF7800E2F176 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,9 +363,11 @@
 				78640EF92C6DF18A00E2F176 /* R1.swift in Sources */,
 				78640F0A2C6DF1C100E2F176 /* CoreModel.xcdatamodeld in Sources */,
 				78640F222C6E1BAE00E2F176 /* NotesViewModel.swift in Sources */,
+				78A13E0F2C8219F300E7D8BC /* Des.swift in Sources */,
 				78640F102C6DF52500E2F176 /* AdventuresVeiw.swift in Sources */,
 				78640EFB2C6DF18E00E2F176 /* R2.swift in Sources */,
 				78640F052C6DF1B100E2F176 /* CoreDataStack.swift in Sources */,
+				78A13E112C8219FA00E7D8BC /* Wot.swift in Sources */,
 				78640F162C6DF53E00E2F176 /* SettingsView.swift in Sources */,
 				78640F072C6DF1B900E2F176 /* Array.swift in Sources */,
 				78640EDD2C6DEF7800E2F176 /* App809App.swift in Sources */,
@@ -353,6 +379,7 @@
 				78640F272C6E302600E2F176 /* TabBar.swift in Sources */,
 				78640F1B2C6E06E900E2F176 /* AddAdv.swift in Sources */,
 				78640F202C6E13F400E2F176 /* AddPlace.swift in Sources */,
+				78A13E0D2C8219ED00E7D8BC /* Saw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App809/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = BlazeSoulSync;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blaze SoulSync";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -500,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App809;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -523,7 +550,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App809/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = BlazeSoulSync;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blaze SoulSync";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -539,7 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App809;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -573,6 +600,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78A13E042C8219CA00E7D8BC /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/metrica-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		78A13E092C8219D000E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78A13E052C8219CA00E7D8BC /* YandexMobileMetrica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A13E042C8219CA00E7D8BC /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetrica;
+		};
+		78A13E072C8219CA00E7D8BC /* YandexMobileMetricaCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A13E042C8219CA00E7D8BC /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetricaCrashes;
+		};
+		78A13E0A2C8219D000E7D8BC /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A13E092C8219D000E7D8BC /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		78640F082C6DF1C100E2F176 /* CoreModel.xcdatamodeld */ = {
